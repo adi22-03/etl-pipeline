@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Take-Home Task: PySpark ETL Pipeline
 
 **Time budget:** 4 hours  
@@ -56,3 +57,6 @@ The exact implementation decisions are yours to make. Use your judgment.
 ## Submission
 
 Push to a GitHub or GitLab repo and send us the link. Include sample Parquet output generated from the provided files.
+=======
+# etl-pipeline
+>>>>>>> 46f03566ca9124434436ecf8293cb1ca6ea2e440
