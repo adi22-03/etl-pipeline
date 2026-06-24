@@ -1,0 +1,4 @@
+{"event_id": "evt_011", "user_id": "u001", "event_type": "page_view", "timestamp": "2024-01-15T23:50:00Z", "revenue": null, "properties": {"page": "/home", "session_id": "sess_a2", "product_id": null, "quantity": null, "query": null}}
+{"event_id": "evt_012", "user_id": "u002", "event_type": "page_view", "timestamp": "2024-01-15T23:55:00Z", "revenue": null, "properties": {"page": "/deals", "session_id": "sess_b3", "product_id": null, "quantity": null, "query": null}}
+{"event_id": "evt_013", "user_id": "u004", "event_type": "purchase", "timestamp": "2024-01-16T00:05:00Z", "revenue": 19.99, "properties": {"page": null, "session_id": "sess_d1", "product_id": "prod_v5", "quantity": 1, "query": null}}
+{"event_id": "evt_014", "user_id": "u003", "event_type": "search", "timestamp": "2024-01-15T23:40:00Z", "revenue": null, "properties": {"page": null, "session_id": "sess_c2", "product_id": null, "quantity": null, "query": "running shoes"}}

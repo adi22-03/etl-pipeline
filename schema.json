@@ -1,0 +1,24 @@
+{
+  "type": "struct",
+  "fields": [
+    { "name": "event_id",    "type": "string",  "nullable": false },
+    { "name": "user_id",     "type": "string",  "nullable": true  },
+    { "name": "event_type",  "type": "string",  "nullable": false },
+    { "name": "timestamp",   "type": "string",  "nullable": false, "comment": "ISO 8601 UTC" },
+    { "name": "revenue",     "type": "double",  "nullable": true,  "comment": "null for non-purchase events" },
+    {
+      "name": "properties",
+      "type": {
+        "type": "struct",
+        "fields": [
+          { "name": "page",       "type": "string",  "nullable": true },
+          { "name": "session_id", "type": "string",  "nullable": true },
+          { "name": "product_id", "type": "string",  "nullable": true },
+          { "name": "quantity",   "type": "integer", "nullable": true },
+          { "name": "query",      "type": "string",  "nullable": true }
+        ]
+      },
+      "nullable": true
+    }
+  ]
+}
